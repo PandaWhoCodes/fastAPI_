@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+nav {
+  padding: 0 50px;
+  margin-bottom: 50px;
+  background: #000;
+}
+nav h1 {
+  color: #fff;
+  display: inline-block;
+}
+nav .nav-microblog {
+  font-weight: 300;
+  color: #bebebe;
+  display: inline-block;
+}
+
+.title {
+  margin: 0 50px;
+}
+.title .title-wrapper {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+.title .title-post {
+  font-family: "Open Sans Condensed", sans-serif;
+  border-bottom: 4px solid #000;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.post {
+  height: 200px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.post:last-child {
+  border-bottom: 0;
+  margin-bottom: 40px;
+}
+.post .post-img {
+  float: left;
+  margin-right: 20px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+.form-group label {
+  display: block;
+  font-weight: 700;
+}
+.form-group .form-input {
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  height: 35px;
+  max-width: 700px;
+  width: 100%;
+}
+.form-group textarea.form-input {
+  height: 200px;
+}
+.form-group .btn {
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 700;
+}
+.form-group .btn.submit {
+  background: #37bde6;
+  margin-right: 15px;
+}
+.form-group .btn.cancel {
+  background: #999;
+}

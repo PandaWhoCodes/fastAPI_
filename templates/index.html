@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  <title>Home</title>
+{% endblock %}
+{% block content %}
+        <div class='wrapper'>
+            <section class='title'>
+              <div class='title-wrapper'>
+                <span class='title-post'>ALL POSTS</span>
+              </div>
+              <div class='post'>
+                <img class='post-img' src='http://placehold.it/350x200'>
+                <h1 class='post-title'>Post Title</h1>
+                <p>You did exactly what you had to do. You considered all your options, you tried every alternative and then you made the hard choice. Is it my imagination, or have tempers become a little frayed on the ship lately? You enjoyed that. Computer, lights up! Ensign Babyface! They were just sucked into space.</p>
+              </div>
+              <div class='post'>
+                <img class='post-img' src='http://placehold.it/350x200'>
+                <h1 class='post-title'>Post Title</h1>
+                <p>You did exactly what you had to do. You considered all your options, you tried every alternative and then you made the hard choice. Is it my imagination, or have tempers become a little frayed on the ship lately? You enjoyed that. Computer, lights up! Ensign Babyface! They were just sucked into space.</p>
+              </div>
+              <div class='post'>
+                <img class='post-img' src='http://placehold.it/350x200'>
+                <h1 class='post-title'>Post Title</h1>
+                <p>You did exactly what you had to do. You considered all your options, you tried every alternative and then you made the hard choice. Is it my imagination, or have tempers become a little frayed on the ship lately? You enjoyed that. Computer, lights up! Ensign Babyface! They were just sucked into space.</p>
+              </div>
+            </section>
+            <section class='title'>
+              <div class='title-wrapper'>
+                <span class='title-post'>ADD A POST</span>
+              </div>
+              <form>
+                <div class='form-group'>
+                  <label class='form-title'>Title</label>
+                  <input class='form-input'>
+                </div>
+                <div class='form-group'>
+                  <label class='form-title'>Image URL</label>
+                  <input class='form-input'>
+                </div>
+                <div class='form-group'>
+                  <label class='form-title'>Body</label>
+                  <textarea class='form-input'></textarea>
+                </div>
+                <div class='form-group'>
+                  <button class='btn submit'>Add Post</button>
+                  <button class='btn cancel'>Cancel</button>
+                </div>
+              </form>
+            </section>
+          </div>        
+{% endblock %}
