@@ -9,21 +9,13 @@
               <div class='title-wrapper'>
                 <span class='title-post'>ALL POSTS</span>
               </div>
+              {% for post in posts.posts %}
               <div class='post'>
-                <img class='post-img' src='http://placehold.it/350x200'>
-                <h1 class='post-title'>Post Title</h1>
-                <p>You did exactly what you had to do. You considered all your options, you tried every alternative and then you made the hard choice. Is it my imagination, or have tempers become a little frayed on the ship lately? You enjoyed that. Computer, lights up! Ensign Babyface! They were just sucked into space.</p>
+                <img class='post-img' src='{{ post.post_picture }}'>
+                <h1 class='post-title'>{{ post.post_title }}</h1>
+                <p>{{ post.post_excrept }}</p>
               </div>
-              <div class='post'>
-                <img class='post-img' src='http://placehold.it/350x200'>
-                <h1 class='post-title'>Post Title</h1>
-                <p>You did exactly what you had to do. You considered all your options, you tried every alternative and then you made the hard choice. Is it my imagination, or have tempers become a little frayed on the ship lately? You enjoyed that. Computer, lights up! Ensign Babyface! They were just sucked into space.</p>
-              </div>
-              <div class='post'>
-                <img class='post-img' src='http://placehold.it/350x200'>
-                <h1 class='post-title'>Post Title</h1>
-                <p>You did exactly what you had to do. You considered all your options, you tried every alternative and then you made the hard choice. Is it my imagination, or have tempers become a little frayed on the ship lately? You enjoyed that. Computer, lights up! Ensign Babyface! They were just sucked into space.</p>
-              </div>
+              {% endfor %}
             </section>
             <section class='title'>
               <div class='title-wrapper'>
